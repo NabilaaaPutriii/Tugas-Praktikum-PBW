@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+div img{
+    width: 220px;
+    height: 200px;
+}
+
+.buah {
+    display: grid;
+    grid-template-columns: 220px 220px 220px ;  
+    gap: 6px 15px;
+    justify-content: center;
+}

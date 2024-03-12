@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.kotak{
+    margin: auto;
+    width: 593px;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+header p{
+    font-size: 12px;
+}
+nav a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav ol{
+    font-size: 12px;
+}
+
+article p{
+    padding: 0 0 10px 0;
+}
+
+
+article small{
+    padding-bottom: 30px;
+}
+

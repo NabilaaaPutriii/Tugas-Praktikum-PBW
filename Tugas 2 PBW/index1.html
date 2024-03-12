@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=on, initial-scale=1.0">
+    <title>Form Mahasiswa Baru</title>
+    <link rel="stylesheet" href="Form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="#" method="">
+        <h1>Pendaftaran Mahasiswa Baru</h1>
+        <table>
+            <!-- NPM -->
+            <tr>
+                <td><label for="NPM (Nomor Pokok Mahasiswa)">NPM (Nomor Pokok Mahasiswa)</label></td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="NPM (Nomor Pokok Mahasiswa)" id="NPM (Nomor Pokok Mahasiswa)" required>
+                </td>
+            </tr>
+            <!-- NAMA LENGKAP -->
+            <tr>
+                <td><label for="Nama Lengkap">Nama Lengkap</label></td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="Nama Lengkap" id="Nama Lengkap" required></td>
+            </tr>
+            <!-- AlAMAT -->
+            <tr>
+                <td><label for="Alamat">Alamat</label></td>
+            </tr>
+            <tr>
+                <td><textarea name="Alamat" id="Alamat" required></textarea></td>
+            </tr>
+            <!-- JENIS KELAMIN -->
+            <tr>
+                <td> <label for="jk">Jenis Kelamin</label></td>
+            </tr>
+            <tr>
+
+                <td class="Laki-Laki">
+                    <label>
+                        <input type="radio" name="jk" id="jk" value="Laki-Laki" required>
+                        <span>Laki-Laki</span>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="Perempuan">
+                    <label>
+                        <input type="radio" name="jk" id="jk" value="Perempuan" required>
+                        <span>Perempuan</span>
+                    </label>
+                </td>
+            </tr>
+            <!-- PROGRAM STUDI -->
+            <tr>
+                <td> <label for="Program Studi">Program Studi</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="Program Studi" id="Program Studi" required>
+                        <option value="" disabled selected hidden>Program Studi</option>
+                        <option value="Informatika">Informatika</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Sistem Informasi">Hubungan Internasional</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button>Tambah</button></td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
